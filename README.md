@@ -32,7 +32,7 @@ You need to make the base image and setup in a way so that kubernetes can access
                       args: ["start-ds"]
 
  
- 
+### There are couple of things we need to set it up to make the pod running
           
               Environment variables
               ---------------------

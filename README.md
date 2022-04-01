@@ -20,7 +20,7 @@ spec:
       containers:
         - name: raining-lab-pod-container-1
           image: frds:1.0
-       ***imagePullPolicy: Never
+       ***imagePullPolicy: Never***
           ports:
             - containerPort: 1389
           env:
@@ -28,6 +28,9 @@ spec:
               value: "true"
           command: ["sh","-c"]
           args: ["start-ds"]
+ 
+ 
+ 
           
           
          
